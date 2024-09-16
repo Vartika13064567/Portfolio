@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+     <link rel="icon" type="image/x-icon" href="./assets/favicon.ico">
+</head>
+
+<body>
+    <nav id="desktop-nav">
+        <div class="logo">Vartika</div>
+        <div>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    <nav id="hamburger-nav">
+        <div class="logo">Nikhil Kamble</div>
+        <div class="hamburger-menu">
+            <div class="hamburger-icon" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="menu-links">
+                <li><a href="#about" onclick="toggleMenu()">About</a></li>
+                <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+                <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+                <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+            </div>
+        </div>
+    </nav>
+    <section id="profile">
+        <div class="section__pic-container">
+            <img id="profile1" src="C:\Users\KIIT\Desktop\portfolio\Vartika_passport.jpeg" alt="Vartika profile picture"
+                title="Nikhil Kamble" />
+        </div>
+        <div class="section__text">
+            <p class="section__text__p1">Hello, I'm</p>
+            <h1 class="title">Vartika</h1>
+            <p class="section__text__p2">Frontend Developer</p>
+            <div class="btn-container">
+                <a href="https://drive.google.com/file/d/19X7QW2Xv1jijfN1u1f9n91B9wC1gHtuI/view?usp=drivesdk"
+                    target="_blank">
+                    <button class="btn btn-color-2">
+                        See Resume
+                    </button>
+                </a>
+                <button class="btn btn-color-1" onclick="location.href='#contact'">
+                    Contact Info
+                </button>
+            </div>
+            <div id="socials-container">
+                <a target="_blank" href='https://www.linkedin.com/in/vartika-singh13/'>
+                    <img src="C:\Users\KIIT\Desktop\portfolio\linkedin.png" alt="My LinkedIn profile" class="icon" />
+                </a>
+
+                <a target="_blank" href="https://github.com/Vartika13064567">
+                    <img src="C:\Users\KIIT\Desktop\portfolio\github.png" alt="My Github profile" class="icon" />
+                </a>
+            </div>
+        </div>
+    </section>
+    <section id="about">
+        <p class="section__text__p1">Get To Know More</p>
+        <h1 class="title" id="aboutTitle">About Me</h1>
+        <div class="section-container">
+
+            <div class="about-details-container">
+                <div class="about-containers">
+                    <div class="details-container">
+                        <img src="C:\Users\KIIT\Desktop\portfolio\experience.png" alt="Experience icon" class="icon" />
+                        <h3>Educational Experience</h3>
+                        <p>5 star in hacker rank <br /></p>
+                    </div>
+                    <div class="details-container">
+                        <img src="C:\Users\KIIT\Desktop\portfolio\education.png" alt="Education icon" class="icon" />
+                        <h3>Education</h3>
+                        <p>Bachelor of Tecknology<br /><i>(Pursuing Last Year)</i></p>
+                    </div>
+                </div>
+                <div class="text-container">
+                    <p><span class="highlight"></span>
+                        I'm <span class="highlight">Frontend Developer</span> from Bhubaneswar, India, I build website with
+                        a focus on
+                        <span class="highlight">JavaScript and React </span> considering
+                        all the aspects of <span class="highlight">Front end devolopment</span> . I enjoy turning complex problems into
+                        simple,
+                        beautiful and intuitive designs. <br> A
+                        <span class="highlight">Software Engineer</span> , who loves to solve problems.
+                        I am found of building high-performing, responsive, beautiful web applications to
+                        deliver a
+                        unique, intuitive user experience that works, also <span class="highlight"> keen interest in
+                            Css</span>
+                        with some nice designing skills. <br> I
+                        hope to become a well-trained teammate at <span class="highlight">accenture</span> who loves to share ideas and prioritizes communication in order to
+                        achieve goals within the set deadlines. I enjoy being challenged and working on projects that require me to
+                        step outside
+                        of my comfort zone.
+                    </p>
+                </div>
+            </div>
+        </div>
+        </section>
+    <section id="experience">
+        <p class="section__text__p1">Explore My</p>
+        <h1 class="title">Experience</h1>
+        <div class="experience-details-container">
+            <div class="about-containers">
+                <div class="details-container">
+                    <h2 class="experience-sub-title">Frontend Development</h2>
+                    <div class="article-container">
+                        <article>
+                            <img src="C:\Users\KIIT\Desktop\portfolio\checkmark.png" alt="Experience icon" class="icon" />
+                            <div>
+                                <h3>HTML5</h3>
+                                <p>Experienced</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="C:\Users\KIIT\Desktop\portfolio\checkmark.png" alt="Experience icon" class="icon" />
+                            <div>
+                                <h3>CSS3</h3>
+                                <p>Experienced</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="C:\Users\KIIT\Desktop\portfolio\checkmark.png" alt="Experience icon" class="icon" />
+                            <div>
+                                <h3>JavaScript</h3>
+                                <p>Experienced</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="C:\Users\KIIT\Desktop\portfolio\checkmark.png" alt="Experience icon" class="icon" />
+                            <div>
+                                <h3>React</h3>
+                                <p>Intermediate</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="C:\Users\KIIT\Desktop\portfolio\checkmark.png" alt="Experience icon" class="icon" />
+                            <div>
+                                <h3>SQL</h3>
+                                <p>Intermediate</p>
+                            </div>
+                        </article>
+          
+                        <article>
+                            <img src="C:\Users\KIIT\Desktop\portfolio\checkmark.png" alt="Experience icon" class="icon" />
+                            <div>
+                                <h3>Tailwind </h3>
+                                <p>Intermediate</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="C:\Users\KIIT\Desktop\portfolio\checkmark.png" alt="Experience icon" class="icon" />
+                            <div>
+                                <h3>Bootstrap </h3>
+                                <p>Intermediate</p>
+                            </div>
+                        </article>
+            
+
+                        <article>
+                            <img src="C:\Users\KIIT\Desktop\portfolio\checkmark.png" alt="Experience icon" class="icon" />
+                            <div>
+                                <h3>Material UI</h3>
+                                <p>Intermediate</p>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+                <div class="details-container">
+                    <h2 class="experience-sub-title">Development Tools & Softwares</h2>
+                    <div class="article-container">
+                   
+                        <article>
+                            <img src="C:\Users\KIIT\Desktop\portfolio\checkmark.png" alt="Experience icon" class="icon" />
+                            <div>
+                                <h3>Git</h3>
+                                <p>Intermediate</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="C:\Users\KIIT\Desktop\portfolio\checkmark.png" alt="Experience icon" class="icon" />
+                            <div>
+                                <h3>GitHub</h3>
+                                <p>Intermediate</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="C:\Users\KIIT\Desktop\portfolio\checkmark.png" alt="Experience icon" class="icon" />
+                            <div>
+                                <h3>Figma</h3>
+                                <p>Intermediate</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="C:\Users\KIIT\Desktop\portfolio\checkmark.png" alt="Experience icon" class="icon" />
+                            <div>
+                                <h3>Canva</h3>
+                                <p>Intermediate</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="C:\Users\KIIT\Desktop\portfolio\checkmark.png" alt="Experience icon" class="icon" />
+                            <div>
+                                <h3>Netlify</h3>
+                                <p>Intermediate</p>
+                            </div>
+                        </article>
+                        <article id="lastSkill">
+                            <img src="C:\Users\KIIT\Desktop\portfolio\checkmark.png" alt="Experience icon" class="icon" />
+                            <div>
+                                <h3>VS Code</h3>
+                                <p>Intermediate</p>
+                            </div>
+                        </article>
+               
+                    </div>
+                </div>
+            </div>
+        </div>
+          </section>
+
+    <!-- project section  -->
+
+    <section id="projects">
+        <p class="section__text__p1">Browse My Recent</p>
+        <h1 class="title">Projects</h1>
+        <div class="experience-details-container">
+            <div class="about-containers">
+                <div class="details-container color-container">
+                                       <h2 class="experience-sub-title project-title">Quiz app</h2>
+                    <div class="btn-container">
+                        <a target="_blank" href="https://github.com/Vartika13064567/Quiz-app">
+                            <button class="btn btn-color-2 project-btn">
+                                Github
+                            </button>
+                        </a>
+
+                    </div>
+                </div>
+                <div class="details-container color-container">
+                    <div class="article-container">
+                         </div>
+                    <h2 class="experience-sub-title project-title">Expense tracker</h2>
+                    <div class="btn-container">
+                        <a href="https://github.com/Vartika13064567/Expence-tracker" target="_blank">
+                            <button class="btn btn-color-2 project-btn">
+                                Github
+                            </button>
+                        </a>
+                      
+                    </div>
+                </div>
+              
+
+                
+
+    <!-- contact section  -->
+
+    <section id="contact">
+        <p class="section__text__p1">Get in Touch</p>
+        <h1 class="title">Contact Me</h1>
+        <div class="contact-info-upper-container">
+            <div class="contact-info-container">
+                <img src="C:\Users\KIIT\Desktop\portfolio\email.png" alt="Email icon" class="icon contact-icon email-icon" />
+                <p><a href="mailto:vsingh080203@gmail.com">vsingh13080203@gmail.com</a></p>
+            </div>
+            <div class="contact-info-container">
+                <img src="C:\Users\KIIT\Desktop\portfolio\linkedin.png" alt="LinkedIn icon" class="icon contact-icon" />
+                <p><a target="_blank" href="https://www.linkedin.com/in/vartika-singh13/">LinkedIn</a></p>
+            </div>
+        </div>
+    </section>
+
+    
+
+    <footer>
+        <nav>
+            <div class="nav-links-container">
+                <ul class="nav-links">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#experience">Experience</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+        <p>Copyright &#169; 2023 @Vartika. All Rights Reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
